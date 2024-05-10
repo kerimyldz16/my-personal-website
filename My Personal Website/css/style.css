@@ -1,0 +1,135 @@
+body {
+  background-color: #f9f5eb;
+  font-family: "Kreon", serif;
+}
+#navbar {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f9f5eb;
+}
+
+.cpuimage {
+  filter: drop-shadow(11px 5px 10px #000);
+}
+
+a {
+  color: #002b5b;
+  text-decoration: none;
+  padding: 20px;
+}
+#feature {
+  background: linear-gradient(
+    180.2deg,
+    rgb(120, 85, 137) -6.9%,
+    rgb(35, 9, 31) 76.7%
+  );
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+  color: #e4dccf;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  filter: drop-shadow(4px 5px 10px #000);
+}
+
+#about {
+  background-color: #f9f5eb;
+  color: #002b5b;
+}
+.aboutbox {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.titleabout {
+  font-family: "Ubuntu", sans-serif;
+}
+.titleabout h2 {
+  font-size: 2.5rem;
+}
+.contentabout {
+  width: 50%;
+  font-size: 1.3rem;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+#skills {
+  background-color: #f9f5eb;
+  color: #002b5b;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.skillsbox {
+  display: flex;
+  justify-content: space-around;
+}
+#skills h2 {
+  font-size: 2.5rem;
+}
+.githubtitle {
+  margin-top: 10px;
+}
+#skills h3 {
+  padding-top: 25px;
+}
+.skillsbox {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects h2 {
+  padding-top: 3.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  color: #002b5b;
+}
+.projectcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.card img {
+  object-fit: cover;
+}
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.socialsbox {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer {
+  background: linear-gradient(
+    180.2deg,
+    rgb(120, 85, 137) -6.9%,
+    rgb(35, 9, 31) 76.7%
+  );
+  text-align: center;
+  color: #e4dccf;
+}
